@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackathon_buhbyebyte/pages/calendar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -72,9 +73,3 @@ class PaymentPage extends StatelessWidget {
   }
 }
 
-class CalendarPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(child: Text("Calendar Page"));
-  }
-}
